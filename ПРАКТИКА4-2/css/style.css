@@ -1,0 +1,73 @@
+.page {
+	font-family: sans-serif;
+  }
+  
+  a {
+	color: white;
+  }
+  .header, footer {
+	height: 80px;
+	background-color: black;
+	color: white;
+	padding: 0px;
+	box-sizing: border-box;
+	width: 1000px;
+	margin: auto;
+	text-align: left;
+  }
+  
+  .header {
+	font-size: 0;
+	width: 1000px;
+	margin: auto;
+	
+  }
+  .logo {
+	font-size: 16px;
+	width: 100px;
+	display: inline-block;
+	position: relative;
+	left: 80px;
+  }
+  .menu {
+	font-size: 16px;
+	display: inline-block;
+	position: relative;
+	left: 160px;
+  }
+  
+  .menu li {
+	margin-right: 5px;
+	display: inline-table;
+  }
+  
+  .columns {
+	width: 800px;
+	margin: 50px auto;
+	font-size: 0;
+  }
+  
+  .left {
+	width: 200px;
+	margin-right: 10px;
+	background-color: black;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 16px;
+	vertical-align: top;
+	display: inline-block;
+  }
+  .right {
+	width: 590px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 16px;
+	vertical-align: top;
+	display: inline-block;
+  }
+  
+  .left a {
+	margin-top: 5px;
+	display: table;
+  }
